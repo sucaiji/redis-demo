@@ -6,8 +6,8 @@
 </head>
 <body>
 
-<div th:each="i:${#numbers.sequence(1,100000)}">
-    <div th:if="${i % 100000} == 0">
+<div th:each="i:${#numbers.sequence(1,10000)}">
+    <div th:if="${i % 10000} == 0">
         超卡
     </div>
 </div>
